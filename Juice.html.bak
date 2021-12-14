@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Menu | Starters | Puff pastry bites</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+    
+    <body class="body-recipes">
+        <div class="header">
+            <a href="starters.html">
+                <i class="fas fa-long-arrow-alt-left"></i>
+            </a>
+            <img src="images/logo-text.png"/>
+        </div>
+        
+            <div class="recipe">
+                <div class="recipe-details">
+                    <img src="images/orange.jpg"/>
+                    
+                    <h1>Juice</h1>
+                    
+                    <div class="recipe-details-info">
+                        <p><b>Prep time: </b> 5mins</p>
+                        <p style="float: right;"><b>Serves: </b>1</p>
+						<br/>
+						<p><strong>PRICE:</strong>55</p>
+						<br/>
+                    </div>
+                    
+                    <div class="recipe-top-up">
+                        <h2>Drink size:</h2>
+                        
+                        <input id="check-01" type="checkbox">
+                        <label for="check-01">small</label>
+                        <br/>
+                        <input id="check-02" type="checkbox">
+                        <label for="check-02">medium</label>
+                        <br/>
+                        <input id="check-03" type="checkbox">
+                        <label for="check-03">large</label>
+                        <br/>
+                        <input id="check-04" type="checkbox">
+                        <label for="check-04">x large</label>
+                        <br/> 
+						<br/>
+						<h2>If any allegic's add a note:</h2>
+						<form action="submit">
+							<input type="text" placeholder="Your name" id="name"/>
+							<input type="text" placeholder="Your email" id="email"/>
+							<textarea placeholder="Type your message here"></textarea>
+							<a class="button" href="message-received.html">SUBMIT</a>
+						</form>
+					</div>
+                    
+                    <div class="recipe-details-steps">
+                       
+						<br/>
+					<a href="thank-you.html">
+						<div>
+							<button type="submit">Order Now</button>
+						</div>
+					</a>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
